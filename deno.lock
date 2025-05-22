@@ -1,0 +1,38 @@
+{
+  "version": "5",
+  "specifiers": {
+    "jsr:@jlarky/csv-parse@*": "0.1.2",
+    "jsr:@jlarky/csv-parse@~0.1.2": "0.1.2",
+    "jsr:@std/assert@1": "1.0.13",
+    "jsr:@std/internal@^1.0.6": "1.0.7",
+    "npm:csv-parse@^5.5.6": "5.6.0"
+  },
+  "jsr": {
+    "@jlarky/csv-parse@0.1.2": {
+      "integrity": "190cb31154533a3dfdc804012aab644ef84a4698799ef82021350c691c8feded",
+      "dependencies": [
+        "npm:csv-parse"
+      ]
+    },
+    "@std/assert@1.0.13": {
+      "integrity": "ae0d31e41919b12c656c742b22522c32fb26ed0cba32975cb0de2a273cb68b29",
+      "dependencies": [
+        "jsr:@std/internal"
+      ]
+    },
+    "@std/internal@1.0.7": {
+      "integrity": "39eeb5265190a7bc5d5591c9ff019490bd1f2c3907c044a11b0d545796158a0f"
+    }
+  },
+  "npm": {
+    "csv-parse@5.6.0": {
+      "integrity": "sha512-l3nz3euub2QMg5ouu5U09Ew9Wf6/wQ8I++ch1loQ0ljmzhmfZYrH9fflS22i/PQEvsPvxCwxgz5q7UB8K1JO4Q=="
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@jlarky/csv-parse@~0.1.2",
+      "jsr:@std/assert@1"
+    ]
+  }
+}

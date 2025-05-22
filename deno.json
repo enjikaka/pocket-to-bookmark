@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "pocket": "deno run --allow-read --allow-write index.ts pocket.csv bookmarks.html"
+  },
+  "imports": {
+    "@jlarky/csv-parse": "jsr:@jlarky/csv-parse@^0.1.2",
+    "@std/assert": "jsr:@std/assert@1"
+  }
+}
