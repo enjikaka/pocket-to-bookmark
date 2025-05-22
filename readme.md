@@ -9,3 +9,4 @@ This Deno script converts your CSV export to a Netscape Bookmark File Format-com
 1. Add your Pocket CSV file in the root directery and name it pocket.csv
 2. Run `deno task pocket`
 
+If you do not have Deno installed, open the projects devcontainer and use the terminal in your editor.
